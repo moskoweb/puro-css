@@ -1,0 +1,148 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  position: absolute;
+  top: 6px;
+  right: 10%;
+  z-index: 1000;
+}
+/*body {
+  background: #f0f;
+}*/
+main {
+  position: absolute;
+  right: 40%;
+  margin: 0 auto;
+  width: 377px;
+  height: 806px;
+  /*background: #f00;*/
+}
+.corpo {
+  position: absolute;
+  top: 10px;
+  width: 377px;
+  height: 796px;
+  border-radius: 58px;
+  background: #111;
+}
+.btn {
+  position: absolute;
+  width: 4px;
+  height: 35px;
+  border-radius: 3px 0 0 3px;
+  background: #111;
+  background-image: -webkit-linear-gradient(left, rgba(255,255,255,.6) 20%, transparent 40%, rgba(255,255,255,.6) 70%, transparent);
+  background-image:    -moz-linear-gradient(left, rgba(255,255,255,.6) 20%, transparent 40%, rgba(255,255,255,.6) 70%, transparent);
+  background-image:     -ms-linear-gradient(left, rgba(255,255,255,.6) 20%, transparent 40%, rgba(255,255,255,.6) 70%, transparent);
+  background-image:      -o-linear-gradient(left, rgba(255,255,255,.6) 20%, transparent 40%, rgba(255,255,255,.6) 70%, transparent);
+  background-image:         linear-gradient(left, rgba(255,255,255,.6) 20%, transparent 40%, rgba(255,255,255,.6) 70%, transparent);
+}
+.btn::after {
+  position: absolute;
+  top: 4px;
+  left: 2px;
+  width: 1px;
+  height: 1px;
+  background: rgba(255,255,255,.5);
+  box-shadow: 0 0 7px 2px #fff;
+  content: '';
+}
+.power {
+  top:-22px;
+  right: 90px;
+  height: 60px;
+  -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+       -o-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.lock {
+  top: 120px;
+  left: -4px;
+}
+.volume {
+  left: -4px;
+  height: 25px;
+}
+.menos {
+  top: 196px;
+}
+.mais {
+  top: 262px;
+}
+.vidro {
+  position: absolute;
+  top: 14px;
+  left: 4px;
+  overflow: hidden;
+  width: 369px;
+  height: 788px;
+  border-top: 1px solid rgba(255,255,255,.5);
+  border-bottom: 1px solid rgba(255,255,255,.5);
+  border-radius: 58px;
+  background: #000;
+}
+.btn-home {
+  position: absolute;
+  bottom: 23px;
+  left: 50%;
+  margin-left: -36px;
+  width: 72px;
+  height: 72px;
+  border-top: 1px solid rgba(255,255,255,.7);
+  border-bottom: 1px solid rgba(255,255,255,.7);
+  border-radius: 50%;
+  background: #060606;
+}
+.menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -12px 0 0 -12px;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.degrade {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background-image: -webkit-linear-gradient(top, transparent 50%, rgba(255,255,255,.5));
+  background-image:    -moz-linear-gradient(top, transparent 50%, rgba(255,255,255,.5));
+  background-image:     -ms-linear-gradient(top, transparent 50%, rgba(255,255,255,.5));
+  background-image:      -o-linear-gradient(top, transparent 50%, rgba(255,255,255,.5));
+  background-image:         linear-gradient(top, transparent 50%, rgba(255,255,255,.5));
+}
+.tela {
+  position: absolute;
+  top: 110px;
+  left:19px;
+  width: 340px;
+  height: 570px;
+  border-radius: 3px;
+  background: #252525;
+}
+.pelicula {
+  position: absolute;
+  top: -65px;
+  right: -145px;
+  width: 250px;
+  height: 700px;
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,.6) 5%, rgba(255,255,255,.0) 80%, transparent);
+  background-image:    -moz-linear-gradient(top, rgba(255,255,255,.6) 5%, rgba(255,255,255,.0) 80%, transparent);
+  background-image:     -ms-linear-gradient(top, rgba(255,255,255,.6) 5%, rgba(255,255,255,.0) 80%, transparent);
+  background-image:      -o-linear-gradient(top, rgba(255,255,255,.6) 5%, rgba(255,255,255,.0) 80%, transparent);
+  background-image:         linear-gradient(top, rgba(255,255,255,.6) 5%, rgba(255,255,255,.0) 80%, transparent);
+  -webkit-transform: rotate(-20deg);
+     -moz-transform: rotate(-20deg);
+      -ms-transform: rotate(-20deg);
+       -o-transform: rotate(-20deg);
+          transform: rotate(-20deg);
+}
